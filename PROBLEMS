@@ -14,3 +14,11 @@ int main()
     printf("Final Balance =%.2f",final_balance);
     return 0;
 }
+
+OUTPUT:-
+
+    Initial Balance:5000
+Deposit:2000
+Balance=7000.00
+Withdraw :1500
+Final Balance =5500.00
