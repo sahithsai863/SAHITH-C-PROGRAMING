@@ -1,0 +1,29 @@
+#include <stdio.h>
+int main ()
+{
+    int a=5,b=8,c=10;
+    printf("a=a+b:%d\n",a+=b);
+    printf("a=a+c:%d\n",a-=c);
+    printf("a=a-b:%d\n",a-=b);
+    printf("a=a-c: %d\n",a-=c);
+    printf("a=a*b: %d\n",a*=b);
+    printf("a=a&c:%d\n",a*=c);
+    printf("a=a/b: %d\n",a/=b);
+    printf("a=a/c: %d\n",a/=c);
+    printf("a modulodivided by b: %d\n",a%=b);
+    printf("a modulodivided by c: %d\n",a%=c);
+    return 0;
+}
+
+OUTPUT:-
+
+a=a+b:13
+a=a+c:3
+a=a-b:-5
+a=a-c: -15
+a=a*b: -120
+a=a&c:-1200
+a=a/b: -150
+a=a/c: -15
+a modulo divided by b: -7
+a modulo divided by c: -7
