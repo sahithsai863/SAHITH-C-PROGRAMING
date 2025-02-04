@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    float initial_balance,deposit,withdraw,balance,final_balance;
+    printf("Initial Balance:",initial_balance);
+    scanf("%f",&initial_balance);
+    printf("Deposit:",deposit);
+    scanf("%f",&deposit);
+    balance=initial_balance+deposit;
+    printf("Balance=%.2f\n",balance);
+    printf("Withdraw :",withdraw);
+    scanf("%f",&withdraw);
+    final_balance=balance-withdraw;
+    printf("Final Balance =%.2f",final_balance);
+    return 0;
+}
