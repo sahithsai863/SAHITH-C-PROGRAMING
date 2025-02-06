@@ -30,6 +30,48 @@ a modulo divided by b: -7
 a modulo divided by c: -7
 
 //WORKING OF REGIONAL OPERATORS
+
+#include <stdio.h>
+int main()
+{
+    int a = 10, b = 4;
+    if (a > b)
+        printf("a is greater than b\n");
+    else
+        printf("a is less than or equal to b\n");
+    if (a >= b)
+        printf("a is greater than or equal to b\n");
+    else
+        printf("a is lesser than b\n");
+    if (a < b)
+        printf("a is less than b\n");
+    else
+        printf("a is greater than or equal to b\n");
+    if (a <= b)
+        printf("a is lesser than or equal to b\n");
+    else
+        printf("a is greater than b\n");
+    if (a == b)
+        printf("a is equal to b\n");
+    else
+        printf("a and b are not equal\n");
+    if (a != b)
+        printf("a is not equal to b\n");
+    else
+        printf("a is equal b\n");
+
+    return 0;
+}
+
+OUTPUT:-
+
+a is greater than b
+a is greater than or equal to b
+a is greater than or equal to b
+a is greater than b
+a and b are not equal
+a is not equal to b
+
 //WORKING OF LOGICAL OPERATORS
 
 LOGICAL AND:
@@ -48,6 +90,47 @@ int main() {
 
 OUTPUT:-
 At least one condition is false.
+
+
+
+LOGICAL OR:
+
+
+
+#include <stdio.h>
+
+int main() {
+    int a = 5, b = 10, c = 15;
+    if (a > b || b < c) {
+        printf("At least one condition is true.\n");
+    } else {
+        printf("Both conditions are false.\n");
+    }
+    return 0;
+}
+
+OUTPUT:-
+
+At least one condition is true.
+
+
+LOGICAL NOT:
+
+#include <stdio.h>
+
+int main() {
+    int a = 5, b = 10;
+    if (!(a > b)) {
+        printf("Condition is false.\n");
+    } else {
+        printf("Condition is true.\n");
+    }
+    return 0;
+}
+
+OUTPUT:-
+
+Condition is false.
 
 
 
