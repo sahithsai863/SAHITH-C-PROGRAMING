@@ -30,4 +30,24 @@ a modulo divided by b: -7
 a modulo divided by c: -7
 
 //WORKING OF REGIONAL OPERATORS
+//WORKING OF LOGICAL OPERATORS
+
+LOGICAL AND:
+
+#include <stdio.h>
+
+int main() {
+    int a = 5, b = 10, c = 15;
+    if (a < b && b == c) {
+        printf("Both conditions are true.\n");
+    } else {
+        printf("At least one condition is false.\n");
+    }
+    return 0;
+}
+
+OUTPUT:-
+At least one condition is false.
+
+
 
