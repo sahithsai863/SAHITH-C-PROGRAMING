@@ -125,11 +125,8 @@ else if (year % 100 == 0) {
  return 0;
 }
 
-Output:
-
-not eligible for vote
-
-u will be eligible after 9 years
+Output;
+2/3/2024 is a leap year.
 
 
 
@@ -137,35 +134,19 @@ VOTE
 
 
 #include<stdio.h>
-
 int main()
-
 {
-
 int age=9;
-
 if(age>=18)
-
 printf("eligible for vote");
-
 else
-
 printf("not eligible for vote\nu will be eligible after %d years",18-age);
-
 return 0;
-
 }
 
 Output:
-
 not eligible for vote
-
 u will be eligible after 9 years
-
-Output:
-
-2/3/2024 is a leap year.
-
 
 
 ODD EVEN
@@ -173,25 +154,20 @@ ODD EVEN
 
 
 #include <stdio.h>
-
 int main()
-
 {
-
 int a=10;
-
 if(a%2==0)
-
 printf("%d is even",a);
-
 else
-
 printf("%d is odd",a);
-
 return 0;
-
 }
 
 Output:
-
 10 is even
+
+
+
+
+
