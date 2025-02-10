@@ -110,10 +110,10 @@ LEAP YEAR
 #include <stdio.h>
 int main() {
  int year=2024,month=3,date=2;
-if (year % 400 == 0) 
+ if (year % 400 == 0) {
  printf("%d/%d/%d is a leap year.", date,month,year);
  }
-else if (year % 100 == 0) {
+ else if (year % 100 == 0) {
  printf("%d/%d/%d is not a leap year.",date,month, year);
  }
  else if (year % 4 == 0) {
@@ -124,6 +124,7 @@ else if (year % 100 == 0) {
  }
  return 0;
 }
+
 
 Output;
 2/3/2024 is a leap year.
