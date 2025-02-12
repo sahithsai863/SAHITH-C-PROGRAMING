@@ -20,3 +20,14 @@ int main() {
 
     return 0;
 }
+
+
+
+
+
+
+OUTPUT:-
+
+Enter two positive integers: 72
+120
+The LCM of 72 and 120 is 360.
