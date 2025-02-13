@@ -1,0 +1,21 @@
+SIMPLE INTEREST:-
+#include <stdio.h>
+int main() 
+{
+ float principle,rate,time,simpleinterest;
+ printf("Enter the principle Amount :");
+ scanf("%f",&principle);
+ printf("Enter the Rate of interest :");
+ scanf("%f",&rate);
+ printf("Enter the Time :");
+ scanf("%f",&time);
+ simpleinterest=(principle*rate*time)/100;
+ printf("The rate of interest:%.2f",simpleinterest);
+   return 0;
+}
+
+OUTPUT:-
+Enter the principle Amount :12000
+Enter the Rate of interest :5
+Enter the Time :3
+The rate of interest:1800.00
