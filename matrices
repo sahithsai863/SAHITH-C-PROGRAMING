@@ -1,3 +1,6 @@
+MATRIX ADDITION:-
+
+
 #include<stdio.h>
 int main()
 {
@@ -24,6 +27,12 @@ int main()
 }
 
 
+OUTPUT:-
+6	8	
+10	12	
+
+
+MATRIX SUBTRACTION:-
 
 
 #include<stdio.h>
@@ -50,6 +59,8 @@ int main()
     }
 return 0;
 }
+OUTPUT:-
+
 
 
 
