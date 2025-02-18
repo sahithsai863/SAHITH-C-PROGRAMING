@@ -10,14 +10,11 @@ int main()
         printf("The number %d is odd . \n",num);
     }
     return 0;
-    
 }
 
 
 
 OUTPUT:-
-
-
 
 Enter the number:3
 The number 3 is odd .
