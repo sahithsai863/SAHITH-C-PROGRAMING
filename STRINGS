@@ -1,0 +1,29 @@
+READ STRING FROM THE USER:-
+#include <stdio.h>
+int main()
+{
+    char name[20];
+    printf("Enter Name:");
+    scanf("%s",name);
+    printf("Your name is %s",name);
+    return 0;
+}
+OUTPUT:-
+Enter Name:P.SAHITH SAI
+Your name is P.SAHITH
+
+
+HOW TO READ A LINE OF TEXT:-
+#include <stdio.h>
+int main()
+{
+    char name[20];
+    printf("Enter Name:");
+    fgets(name,sizeof(name),stdin);
+    printf("Your name is:");
+    puts(name);
+    return 0;
+}
+OUTPUT:-
+Enter Name:P.SAHITH SAI
+Your name is:P.SAHITH SAI
