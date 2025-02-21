@@ -1,4 +1,5 @@
 READ STRING FROM THE USER:-
+
 #include <stdio.h>
 int main()
 {
@@ -14,6 +15,7 @@ Your name is P.SAHITH
 
 
 HOW TO READ A LINE OF TEXT:-
+
 #include <stdio.h>
 int main()
 {
@@ -28,7 +30,9 @@ OUTPUT:-
 Enter Name:P.SAHITH SAI
 Your name is:P.SAHITH SAI
 
+
 STRING LENGTH:-(strlen)
+
 #include <stdio.h>
 #include <string.h>
 int main()
