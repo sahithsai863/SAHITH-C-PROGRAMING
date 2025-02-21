@@ -27,3 +27,19 @@ int main()
 OUTPUT:-
 Enter Name:P.SAHITH SAI
 Your name is:P.SAHITH SAI
+
+STRING LENGTH:-(strlen)
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char a[20]="SAHITH SAI";
+    char b[20]="NISHANTH SAI";
+    printf("Length of the string a:%d\n",strlen(a));
+    printf("Length of the string b:%d\n",strlen(b));
+    return 0;
+}
+OUTPUT:-
+Length of the string a:10
+Length of the string b:12
+
