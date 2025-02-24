@@ -43,3 +43,38 @@ OUTPUT:-
 1	2	3	4	5	6	7	8	9	10	
 
 === Code Execution Successful ===
+
+MAXIMUM AND MINIMUM ELEMENTS:-
+
+#include<stdio.h>
+int main()
+{
+    int arr[5]={1,2,3,4,5};
+    int i,mx,mn,n;
+    printf("\n\nFind maximum and minimum element in an array:\n");
+    mx=arr[0];
+    mn=arr[1];
+    for(i=0;i<5;i++)
+    {
+       if(arr[i]>mx) ;
+    {
+      mx=arr[i];
+    }
+    if(arr[i]<mn)
+    {
+        mn=arr[i];
+    }
+    }
+    printf("Maximum element is:%d\n",mx);
+    printf("minimum element is ;%d\n\n",mn);
+    return 0;
+}
+OUTPUT:-
+Find maximum and minimum element in an array:
+Maximum element is:5
+minimum element is ;1
+
+
+
+=== Code Execution Successful ===
+
