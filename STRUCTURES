@@ -21,3 +21,39 @@ int main() {
 
   return 0;
 }
+
+book details:-
+
+#include <stdio.h>
+#include <string.h>
+
+struct Book
+{
+  char bookname[50];
+  char authorname[50];
+  int pageNo;
+  float price;
+} p1,p2;
+
+int main() {
+
+  strcpy(p1.bookname, "c-programming");
+  strcpy(p2.authorname,"Dennis Ritche");
+
+  p1.pageNo = 19;
+  p1.price = 250;
+
+  printf("Book Name: %s\n", p1.bookname);
+  printf("Author Name:%s\n",p2.authorname);
+  printf("Page No: %d\n", p1.pageNo);
+  printf("Price: %.2f", p1.price);
+
+  return 0;
+}
+output:-
+Book Name: c-programming
+Author Name:Dennis Ritche
+Page No: 19
+Price: 250.00
+
+=== Code Execution Successful ===
