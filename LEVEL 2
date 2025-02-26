@@ -28,3 +28,40 @@ Vowels:2
 Consonants:3
 
 === Code Execution Successful ===
+
+
+FLIGHT RESERVATION:-
+#include <stdio.h>
+#include <string.h>
+
+struct flight
+{
+  char passengername[50];
+  char destinationcity[50];
+  char departurecity[50];
+  int date;
+} C1;
+
+int main() {
+
+  strcpy(C1.passengername, "Alice");
+  strcpy(C1.destinationcity,"Newyork");
+ strcpy(C1.departurecity,"Losangeles");
+  C1.date = 20072024;
+ 
+
+  printf("PASSENGER NAME: %s\n", C1.passengername);
+  printf("DESTINATION CITY:%s\n",C1.destinationcity);
+  printf("DEPARTURE CITY: %s\n", C1.departurecity);
+  printf("DATE OF TRAVEL: %d", C1.date);
+
+  return 0;
+}
+
+OUTPUT:-
+PASSENGER NAME: Alice
+DESTINATION CITY:Newyork
+DEPARTURE CITY: Losangeles
+DATE OF TRAVEL: 20072024
+
+=== Code Execution Successful ===
