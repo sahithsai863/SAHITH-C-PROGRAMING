@@ -1,0 +1,30 @@
+VOWELS,CONSONANTS:-
+#include<stdio.h>
+#include<string.h>
+#include<ctype.h>
+int main()
+{
+    char line[150]="Hello";
+    int vowels,consonant,i;
+    vowels=consonant=0;
+    for(i=0;line[i]!='\0';i++)
+    {
+        line[i]=tolower(line[i]);
+    if(line[i]=='a'||line[i]=='e'||line[i]=='i'||line[i]=='o'||line[i]=='u')
+    {
+        vowels++;
+    }
+    else if((line[i]>='a'&&line[i]<='z'))
+    {
+    consonant++;
+    }
+}
+printf("Vowels:%d",vowels);
+printf("\n Consonants:%d",consonant);
+return 0;
+}
+OUTPUT:-
+Vowels:2
+Consonants:3
+
+=== Code Execution Successful ===
