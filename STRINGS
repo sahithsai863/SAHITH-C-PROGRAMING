@@ -12,6 +12,7 @@ int main()
 OUTPUT:-
 Enter Name:P.SAHITH SAI
 Your name is P.SAHITH
+**************************************************************************
 
 
 HOW TO READ A LINE OF TEXT:-
@@ -29,6 +30,7 @@ int main()
 OUTPUT:-
 Enter Name:P.SAHITH SAI
 Your name is:P.SAHITH SAI
+*******************************************************************
 
 
 STRING LENGTH:-(strlen)
@@ -46,4 +48,5 @@ int main()
 OUTPUT:-
 Length of the string a:10
 Length of the string b:12
+*********************************************************************
 
