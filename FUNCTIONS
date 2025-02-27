@@ -15,3 +15,10 @@ int main()
     printf("Inside main:a=%d b=%d\n",a,b);
     return 0;
 }
+
+OUTPUT:-
+Inside swapx:x=20 y=10
+Inside main:a=10 b=20
+
+
+=== Code Execution Successful ===
