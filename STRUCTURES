@@ -1,3 +1,5 @@
+PERSON DETAILS:-
+
 #include <stdio.h>
 #include <string.h>
 
@@ -21,8 +23,15 @@ int main() {
 
   return 0;
 }
+OUTPUT:-
+Name: Raj Kumar
+Citizenship No.: 1984
+Salary: 2500.00
 
-book details:-
+=== Code Execution Successful ===
+***************************************************************************
+
+BOOK DETAILS:-
 
 #include <stdio.h>
 #include <string.h>
@@ -57,7 +66,9 @@ Page No: 19
 Price: 250.00
 
 === Code Execution Successful ===
+***********************************************************************
 
+FLIGHT RESERVATION:-
 
 #include <stdio.h>
 #include <string.h>
@@ -92,4 +103,4 @@ DEPARTURE CITY: Losangeles
 DATE OF TRAVEL: 20072024
 
 === Code Execution Successful ===
-
+************************************************************************
