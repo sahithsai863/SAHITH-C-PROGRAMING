@@ -22,3 +22,29 @@ Inside main:a=10 b=20
 
 
 === Code Execution Successful ===
+*************************************************************************
+CALL BY RFERENCE:-
+
+#include<stdio.h>
+void swapx(int *x,int *y)
+{
+    int t;
+    t=*x;
+    *x=*y;
+    *y=t;
+    printf("Inside swapx:x=%d y=%d\n",*x,*y);
+}
+int main()
+{
+    int a=10,b=20;
+    swapx(&a,&b);
+    printf("Inside main:a=%d b=%d\n",a,b);
+    return 0;
+}
+OUTPUT:-
+Inside swapx:x=20 y=10
+Inside main:a=20 b=10
+
+
+=== Code Execution Successful ===
+*********************************************************************************
