@@ -28,6 +28,7 @@ a=a/b: -150
 a=a/c: -15
 a modulo divided by b: -7
 a modulo divided by c: -7
+*************************************************************************
 
 //WORKING OF REGIONAL OPERATORS
 
@@ -58,9 +59,8 @@ int main()
     if (a != b)
         printf("a is not equal to b\n");
     else
-        printf("a is equal b\n");
-
-    return 0;
+    printf("a is equal b\n");
+return 0;
 }
 
 OUTPUT:-
@@ -71,6 +71,7 @@ a is greater than or equal to b
 a is greater than b
 a and b are not equal
 a is not equal to b
+**************************************************************************
 
 //WORKING OF LOGICAL OPERATORS
 
@@ -90,12 +91,11 @@ int main() {
 
 OUTPUT:-
 At least one condition is false.
+***************************************************************************
 
 
 
 LOGICAL OR:
-
-
 
 #include <stdio.h>
 
@@ -112,6 +112,7 @@ int main() {
 OUTPUT:-
 
 At least one condition is true.
+********************************************************
 
 
 LOGICAL NOT:
@@ -131,6 +132,7 @@ int main() {
 OUTPUT:-
 
 Condition is false.
+****************************************************************
 
 
 
