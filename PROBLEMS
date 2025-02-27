@@ -22,3 +22,34 @@ Deposit:2000
 Balance=7000.00
 Withdraw :1500
 Final Balance =5500.00
+*********************************************************************
+    PROGRAM TO FIND NO.OF YEARS,WEEKS,AND MONTHS WITH A GIVEN NO.OF DAYS:-
+
+#include<stdio.h>
+int main()
+{
+    int days,years,months,weeks;
+    printf("Enter the number of days:");
+    scanf("%d",&days);
+    years=days/365;
+    days%=365;
+    months=days/30;
+    days%=30;
+    weeks=days/7;
+    days%=7;
+    printf("Years:%d\n",years);
+    printf("Months:%d\n",months);
+    printf("Weeks:%d\n",weeks);
+    printf("Days:%d\n",days);
+    return 0;
+}
+OUTPUT:-
+Enter the number of days:500
+Years:1
+Months:4
+Weeks:2
+Days:1
+
+
+=== Code Execution Successful ===
+************************************************************
