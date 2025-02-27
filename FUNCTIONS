@@ -48,3 +48,28 @@ Inside main:a=20 b=10
 
 === Code Execution Successful ===
 *********************************************************************************
+RECURSION FACTORIAL:-
+
+#include<stdio.h>
+long int multiplyNumbers(int n);
+int main() 
+{
+    int n;
+    printf("Enter a positive integer:");
+    scanf("%d",&n);
+    printf("Factorial of %d=%1d",n,multiplyNumbers(n));
+    return 0;
+}
+long int multiplyNumbers(int n)
+{
+    if (n>=1)
+    return n*multiplyNumbers(n-1);
+    else
+    return 1;
+}
+OUTPUT:-
+Enter a positive integer:4
+Factorial of 4=24
+
+=== Code Execution Successful ===
+******************************************************************************
