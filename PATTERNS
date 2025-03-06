@@ -43,12 +43,12 @@ Enter the number of rows for half of the diamond:5
    ***
     *
 === Code Execution Successful ===
-HALLOW DIAMOND:-
+HOLLOW DIAMOND:-
 #include<stdio.h>
 int main()
 {
     int n,i,j,space;
-    printf("Enter the number of rows for half of the hallow diamond:");
+    printf("Enter the number of rows for half of the hollow diamond:");
     scanf("%d",&n);
     for(i=1;i<=n;i++)
     {
@@ -81,7 +81,7 @@ int main()
 }
 
 OUTPUT:-
-Enter the number of rows for half of the hallow diamond:5
+Enter the number of rows for half of the hollow diamond:5
     *
    * *
   *   *
@@ -124,13 +124,13 @@ Enter the number of rows of the square:5
 
 === Code Execution Successful ===
 
-HALLOW SQUARE:-
+HOLLOW SQUARE:-
 
 #include<stdio.h>
 int main()
 {
     int n;
-    printf("Enter the number of rows of the square:");
+    printf("Enter the number of rows of the hollow square:");
     scanf("%d",&n);
     for (int i=0;i<n;i++)
     {
@@ -147,7 +147,7 @@ int main()
     return 0;
 }
 OUTPUT:-
-Enter the number of rows of the square:9
+Enter the number of rows of the hollow square:9
 *********
 *       *
 *       *
