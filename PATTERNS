@@ -94,3 +94,32 @@ Enter the number of rows for half of the hallow diamond:5
 
 
 === Code Execution Successful ===
+
+SQUARE:-
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("Enter the number of rows of the square:");
+    scanf("%d",&n);
+    for (int i=0;i<n;i++)
+    {
+        for (int j=0;j<n;j++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+   
+    return 0;
+}
+OUTPUT:-
+Enter the number of rows of the square:5
+*****
+*****
+*****
+*****
+*****
+
+
+=== Code Execution Successful ===
