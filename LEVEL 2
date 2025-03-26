@@ -1,4 +1,5 @@
 VOWELS,CONSONANTS:-
+*******************
 #include<stdio.h>
 #include<string.h>
 #include<ctype.h>
@@ -32,6 +33,7 @@ Consonants:3
 
 
 FLIGHT RESERVATION:-
+***********************
 #include <stdio.h>
 #include <string.h>
 
