@@ -1,5 +1,5 @@
 MATRIX ADDITION:-
-
+*****************
 #include<stdio.h>
 int main()
 {
@@ -32,7 +32,7 @@ OUTPUT:-
 *********************************************************
 
 MATRIX SUBTRACTION:-
-
+********************
 #include<stdio.h>
 int main()
 {
@@ -64,7 +64,7 @@ OUTPUT:-
 *****************************************************************
 
 MATRIX MULTIPLICATION:-
-
+***********************
 #include<stdio.h>
 int main()
 {
@@ -99,7 +99,7 @@ OUTPUT:-
 ***************************************************************
 
 MATRIX TRANSPOSE:-
-
+******************
 #include<stdio.h>
 int main()
 {
@@ -130,7 +130,7 @@ OUTPUT:-
 ******************************************************************************
 
 SUM OF DIAGONAL ELEMENTS:-
-
+************************
 #include<stdio.h>
 int main()
 {
@@ -173,7 +173,7 @@ sum of diagonal elements=15
 *****************************************************************************************
 
 ORTHOGONAL MATRIX:-
-
+******************
 #include<stdio.h>
 int main()
 {
@@ -211,7 +211,7 @@ The given matrix is orthogonal matrix
 ********************************************************************************
 
 SUM OF MATRIX ELEMENTS AND AVERAGE:-
-
+***********************************
 #include<stdio.h>
 int main()
 {
