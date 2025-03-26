@@ -1,3 +1,5 @@
+BANK PROBLEM:-
+***************
 #include<stdio.h>
 int main()
 {
@@ -24,7 +26,7 @@ Withdraw :1500
 Final Balance =5500.00
 *********************************************************************
     PROGRAM TO FIND NO.OF YEARS,WEEKS,AND MONTHS WITH A GIVEN NO.OF DAYS:-
-
+**************************************************************************
 #include<stdio.h>
 int main()
 {
