@@ -174,3 +174,26 @@ return 0;
 Output:
 10 is even
 ****************************************************************
+REVERSED NUMBER:-
+***************************
+#include <stdio.h>
+int main() {
+    int num, reversed = 0, remainder;
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+    while (num != 0) {
+        remainder = num % 10; 
+        reversed = reversed * 10 + remainder; 
+        num /= 10;  
+    }
+    printf("Reversed Number: %d\n", reversed);
+    return 0;
+}
+
+OUTPUT:-
+Enter an integer: 1234
+Reversed Number: 4321
+
+
+=== Code Execution Successful ===
+***********************************************************
