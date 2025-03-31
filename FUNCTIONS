@@ -75,7 +75,6 @@ Factorial of 4=24
 ******************************************************************************
 RECURSION FIBONACCI SERIES:-
 #include <stdio.h>
-
 int fibonacci(int n) {
     if (n <= 0) {
         return 0;
@@ -85,17 +84,13 @@ int fibonacci(int n) {
         return fibonacci(n - 1) + fibonacci(n - 2);
     }
 }
-
 int main() {
     int n=10, i;
-    
-    
-    printf("Fibonacci Series: ");
+     printf("Fibonacci Series: ");
     for (i = 0; i < n; i++) {
         printf("%d ", fibonacci(i));
     }
-    
-    return 0;
+     return 0;
 }
 OUTPUT:-
 Fibonacci Series: 0 1 1 2 3 5 8 13 21 34 
