@@ -1,5 +1,6 @@
-DIAMOND:-
-
+*******************************************
+*             DIAMOND:-                   *
+*******************************************
 #include<stdio.h>
 int main()
 {
@@ -30,8 +31,9 @@ int main()
     return 0;
 }
 
-
-OUTPUT:-
+********************************************************
+*                  OUTPUT:-                            *
+********************************************************
 Enter the number of rows for half of the diamond:5
     *
    ***
@@ -43,7 +45,9 @@ Enter the number of rows for half of the diamond:5
    ***
     *
 === Code Execution Successful ===
-HOLLOW DIAMOND:-
+**************************************************
+*               HOLLOW DIAMOND:-                 *
+**************************************************
 #include<stdio.h>
 int main()
 {
@@ -79,8 +83,9 @@ int main()
     }
     return 0;
 }
-
-OUTPUT:-
+*********************************************************************
+*                           OUTPUT:-                                *
+*********************************************************************
 Enter the number of rows for half of the hollow diamond:5
     *
    * *
@@ -94,8 +99,9 @@ Enter the number of rows for half of the hollow diamond:5
 
 
 === Code Execution Successful ===
-
-SQUARE:-
+************************************************************
+*                         SQUARE:-                         *
+************************************************************
 #include<stdio.h>
 int main()
 {
@@ -113,7 +119,9 @@ int main()
    
     return 0;
 }
-OUTPUT:-
+********************************************************************
+*                         OUTPUT:-                                 *
+********************************************************************
 Enter the number of rows of the square:5
 *****
 *****
@@ -123,8 +131,9 @@ Enter the number of rows of the square:5
 
 
 === Code Execution Successful ===
-
-HOLLOW SQUARE:-
+*************************************************************************
+*                      HOLLOW SQUARE:-                                  *
+*************************************************************************
 
 #include<stdio.h>
 int main()
@@ -146,7 +155,9 @@ int main()
    
     return 0;
 }
-OUTPUT:-
+*****************************************************************
+*                     OUTPUT:-                                  *
+*****************************************************************
 Enter the number of rows of the hollow square:9
 *********
 *       *
